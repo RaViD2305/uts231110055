@@ -1,0 +1,204 @@
+body{
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 10px 30px;
+    align-items: center;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+  }
+
+  nav img{
+    width: 92px;
+    height: 72px;
+    flex-shrink: 0;
+  }
+
+  body h1{
+    align-items: center;
+    text-align: center;
+  }
+  header {
+    align-items: center;
+    padding: 30px 20px 10px;
+  }
+
+  .tittle {
+    background-image: url('pangeran.png');
+    background-size: cover;
+    background-position: center;
+    height: 512px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .tittle h1{
+    font-size: 28px;
+    align-items: center;
+  }
+
+  .tittle h2{
+    font-size: 18px;
+    align-items: center;
+  }
+  
+  .form-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .hubungi-button {
+    padding: 8px 25px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    align-items: center;
+  }
+
+  .instagram-button {
+    padding: 8px 25px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    align-items: center;
+  }
+
+  button {
+    padding: 8px 25px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    align-items: center;
+  }
+
+  button:hover {
+    background-color: gold;
+  }
+
+  .container-judul{
+    background-image: url(bg.jpeg);
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .container-judul h1{
+    color: white;
+  }
+
+  .container{
+    background-image: url(bg.jpeg);
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .container{
+    background-image: url(bg.jpeg);
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .container-contact{
+    background-image: url(bg.jpeg);
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #121516;
+    border-right: 5px solid #121516;
+    height: 250px;
+    width: 200px;
+    opacity: 50%;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .card h3 {
+    font-size: 18px;
+    color: #000000;
+  }
+
+  .card p {
+    font-size: 14px;
+    color: #000000;
+  }
+
+  .card-armada{
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #121516;
+    border-right: 5px solid #121516;
+    height: 250px;
+    width: 200px;
+    text-align: center;
+    flex-direction: column;
+  }
